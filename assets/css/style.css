@@ -1,0 +1,116 @@
+body{
+    background-color: #142d4c;
+}
+
+.site-header{
+    background-color: white !important;
+    padding: 15px 170px 15px 170px;
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,.1);
+    position: relative;
+}
+
+.site-header-logo{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 15px;  
+}
+
+.site-header-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    line-height: 12px;
+    padding-top: 10px;
+}
+
+.site-header-title #site-header-university{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.site-header-title #site-header-description{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.site-header-title #site-header-akreditasi{
+    font-size: 18px;    
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(204, 35, 35);
+    font-weight: bold;
+}
+
+.site-header-title #site-header-location{
+    font-size: 11px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.site-form{
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1);
+    padding: 40px 0px 20px 0px;
+    border-top: 10px solid  #f0b7a4;
+    border-bottom: 10px solid  #f0b7a4;
+}
+
+.site-form .card-title{
+    font-weight: bold;
+}
+
+.site-form .card-text{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.site-form .form-group{
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: left;
+}
+
+.site-form .form-description{
+    text-align: left;
+    padding-left: 75px;
+    font-weight: bold;
+}
+
+.site-form h5{
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.site-form h6{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 75px;
+    font-size: 22px;
+}
+
+.site-btn-submit{
+    margin-top: 50px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white !important;
+    color: #142d4c;
+    border-color: #142d4c;
+}
+
+.site-btn-submit:hover{
+    background-color: #142d4c !important;
+    color: white;
+}
